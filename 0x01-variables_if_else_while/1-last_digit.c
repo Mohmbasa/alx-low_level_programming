@@ -5,8 +5,9 @@
 /**
  * main - Entry point
  *
- * Description: Prints the last digit of a random number stored in the variable n
- * and states whether it is greater than 5, is 0, or is less than 6 and not 0
+ * Description: Prints the last digit of a random number stored
+ * in the variable n and states whether it is greater than 5,
+ * is 0, or is less than 6 and not 0
  *
  * Return: Always 0 (Success)
  */
