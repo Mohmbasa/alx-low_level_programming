@@ -6,11 +6,11 @@
  */
 void print_alphabet_reverse(char ch)
 {
-	if (ch >= 'a')
-	{
-		putchar(ch);           // Print the current character
-		print_alphabet_reverse(ch - 1); // Recursively call with the previous character
-	}
+    if (ch >= 'a')
+    {
+        putchar(ch);           /* Print the current character */
+        print_alphabet_reverse(ch - 1); /* Recursively call with the previous character */
+    }
 }
 
 /**
@@ -23,8 +23,8 @@ void print_alphabet_reverse(char ch)
  */
 int main(void)
 {
-	print_alphabet_reverse('z');
-	putchar('\n');
+    print_alphabet_reverse('z');
+    putchar('\n');
 
-	return (0);
+    return (0);
 }
