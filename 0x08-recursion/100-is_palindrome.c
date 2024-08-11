@@ -8,10 +8,33 @@
  */
 int is_palindrome(char *s)
 {
-	int len = _strlen(s);
 	int i = 0;
+	int j = 0;
+	int len = strlen_recurse(s, j);
 
 	return (check_palindrome(s, len - 1, i));
+}
+
+/**
+ * strlen_recurse - determines length of string
+ * @s: the string
+ * @j: index for the string
+ *
+ * Return: length of string
+ */
+int strlen_recurse(char *s, int j)
+{
+	int k;
+
+	if (s[j] == '\0')
+	{
+		return (j);
+	}
+	else
+	{
+		k = strlen_recurse(s, j + 1);
+	}
+	return (k);
 }
 
 /**
@@ -34,6 +57,7 @@ int check_palindrome(char *s, int len, int i)
 	{
 		if (len == 0)
 		{
+
 			return (1);
 		}
 		else

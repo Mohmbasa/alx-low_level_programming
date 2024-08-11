@@ -3,7 +3,7 @@
 
 int _putchar(char c);
 void recurse(char *s, int i);
-int _strlen(char *s);
+int strlen_recurse(char *s, int j);
 void rev_recurse(char *s, int len);
 int length_recurse(char *s, int i);
 int sqrt_recurse(int n, int i);
