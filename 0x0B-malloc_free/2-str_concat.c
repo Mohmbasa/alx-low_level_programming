@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * str_concat - concatenates two strings
+ * @s1: the 1st string
+ * @s2: the 2nd string
+ *
+ * Return: 0
+ */
 char *str_concat(char *s1, char *s2)
 {
 	int i = 0;
